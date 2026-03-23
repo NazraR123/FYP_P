@@ -1,0 +1,5 @@
+
+
+venv\Scripts\activate
+python app.py
+curl.exe -X POST -F "file=@test.jpg" http://127.0.0.1:5000/upload

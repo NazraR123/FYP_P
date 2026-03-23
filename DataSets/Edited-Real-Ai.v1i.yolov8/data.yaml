@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Ai human 2', 'Edited images', 'Real human 2']
+
+roboflow:
+  workspace: tea-plant
+  project: edited-real-ai
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tea-plant/edited-real-ai/dataset/1

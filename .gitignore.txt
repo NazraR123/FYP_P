@@ -1,0 +1,6 @@
+DataSets/
+*.webp
+*.jpg
+*.png
+*.pyc
+__pycache__/
